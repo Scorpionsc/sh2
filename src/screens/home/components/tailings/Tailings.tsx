@@ -33,8 +33,10 @@ const styles = StyleSheet.create({
 const Tailings: FC<TailingsProps> = ({isLoading, source}) => {
   const cob = source ? Math.round(source.cob.cob) : '---';
   const iob = source ? Math.round(source.iob.iob * 100) / 100 : '---';
-  const cobTime = source && !isLoading ? moment(source.cob.timestamp).fromNow() : '';
-  const iobTime = source && !isLoading ? moment(source.iob.timestamp).fromNow() : '';
+  const cobTime =
+    source && !isLoading ? moment(source.cob.timestamp).fromNow() : '';
+  const iobTime =
+    source && !isLoading ? moment(source.iob.timestamp).fromNow() : '';
 
   return (
     <View>
