@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 20,
     fontWeight: '500',
+    color: '#535353',
   },
   DoubleUp: {
     transform: [
@@ -82,7 +83,7 @@ const styles = StyleSheet.create({
   normal: {},
   old: {
     textDecorationLine: 'line-through',
-    color: '#8d8d8d',
+    color: 'rgba(83,83,83, 0.5)',
   },
 });
 

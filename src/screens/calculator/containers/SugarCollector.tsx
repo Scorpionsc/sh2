@@ -1,9 +1,9 @@
 import React, {FC} from 'react';
-import useGetSource from '../hooks/useGetSource';
 import {StyleSheet, TouchableWithoutFeedback, View} from 'react-native';
 import CurrentSugar from '../components/currentSugar/CurrentSugar';
 import Tailings from '../components/tailings/Tailings';
 import useAppStateChange from '../../../shared/hooks/useAppStateChange';
+import useGetBloodSource from '../../../api/sugarCollector/hooks/useGetBloodSource';
 
 const styles = StyleSheet.create({
   treatmentInfo: {
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 });
 
 const SugarCollector: FC = () => {
-  const {isLoading, source, reFetchData} = useGetSource();
+  const {isLoading, data: source, reFetch: reFetchData} = useGetBloodSource();
   useAppStateChange({
     onActivate: reFetchData,
   });

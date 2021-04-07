@@ -1,10 +1,18 @@
 import React, {FC} from 'react';
-import {Text, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignSelf: 'center',
+    justifyContent: 'center',
+  },
+});
 
 const FoodScreen: FC = () => {
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text>FoodScreen!</Text>
+    <View style={styles.container}>
+      <Text>FoodScreen will be implemented later!</Text>
     </View>
   );
 };

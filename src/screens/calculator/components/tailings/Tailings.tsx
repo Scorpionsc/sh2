@@ -12,21 +12,23 @@ const styles = StyleSheet.create({
   container: {},
   line: {
     flexDirection: 'row',
-    backgroundColor: '#CCCCCC',
+    backgroundColor: '#cccccc',
     borderRadius: 4,
     marginBottom: 8,
     paddingVertical: 4,
     paddingHorizontal: 8,
   },
-  text: {},
+  text: {
+    color: '#535353',
+  },
   value: {
     paddingHorizontal: 4,
     marginHorizontal: 4,
-    backgroundColor: '#000000',
+    backgroundColor: '#535353',
     borderRadius: 4,
   },
   valueText: {
-    color: '#FFFFFF',
+    color: '#cccccc',
   },
 });
 
