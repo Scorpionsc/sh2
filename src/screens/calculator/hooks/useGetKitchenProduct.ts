@@ -1,8 +1,8 @@
+import {useCallback, useEffect, useMemo, useState} from 'react';
+
 import useGetProducts from '../../../api/sugarCollector/hooks/useGetProducts';
 import useGetDishes from '../../../api/sugarCollector/hooks/useGetDishes';
-import {useCallback, useEffect, useMemo, useState} from 'react';
-import {KitchenProduct} from '../interfaces/kitchenProduct';
-import ingredientsToEnergyValue from '../../../shared/utils/ingredientsToEnergyValue';
+import {KitchenProduct} from '../../../shared/interfaces/kitchenProduct';
 import FoodType from '../enums/foodType';
 
 interface UseGetKitchenProductRes {
@@ -40,11 +40,11 @@ const useGetKitchenProduct: () => UseGetKitchenProductRes = () => {
         ...prevState.filter(item => item.type === FoodType.Dish),
         ...products.map(product => ({
           id: product._id,
-          carbohydrates: +product.carbohydrates,
+          carbohydrates: product.carbohydrates,
           description: product.description,
-          fats: +product.fats,
+          fats: product.fats,
           name: product.name,
-          proteins: +product.proteins,
+          proteins: product.proteins,
           type: FoodType.Product,
         })),
       ]);
@@ -60,7 +60,9 @@ const useGetKitchenProduct: () => UseGetKitchenProductRes = () => {
           description: dish.description,
           name: dish.name,
           type: FoodType.Dish,
-          ...ingredientsToEnergyValue(dish.ingredients),
+          carbohydrates: dish.carbohydrates,
+          proteins: dish.proteins,
+          fats: dish.fats,
         })),
       ]);
     }

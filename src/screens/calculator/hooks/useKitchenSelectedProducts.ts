@@ -1,5 +1,6 @@
-import {KitchenProduct} from '../interfaces/kitchenProduct';
+import {KitchenProduct} from '../../../shared/interfaces/kitchenProduct';
 import {useCallback, useState} from 'react';
+import {Dish} from '../../../shared/interfaces/dish';
 
 interface UseKitchenSelectedProductsRes {
   selectedIds: string[];
@@ -20,8 +21,6 @@ const useKitchenSelectedProducts: () => UseKitchenSelectedProductsRes = () => {
     setSelectedProducts(prevState => [...prevState, {...product, weight: 0}]);
   }, []);
   const removeSelectedId = useCallback((id: string) => {
-    console.log(id);
-    console.log(setSelectedIds);
     setSelectedIds(prevState => prevState.filter(item => item !== id));
     setSelectedProducts(prevState => prevState.filter(item => item.id !== id));
   }, []);

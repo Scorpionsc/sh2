@@ -1,9 +1,10 @@
-import { EnergyValue } from './energyValue';
+import {EnergyValue} from './energyValue';
 
 export interface Product extends EnergyValue {
   _id: string;
   description: string;
-  gi: number;
+  gi: string;
   name: string;
   updatedAt: number;
+  weight?: string;
 }

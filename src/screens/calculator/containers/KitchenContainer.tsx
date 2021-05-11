@@ -1,12 +1,19 @@
 import React, {FC, useMemo} from 'react';
-import {RefreshControl, ScrollView, StyleSheet, View} from 'react-native';
-import SearchControl from '../components/searchControl/SearchControl';
-import useKitchenSearch from '../hooks/useKitchenSearch';
+import {
+  KeyboardAvoidingView,
+  RefreshControl,
+  ScrollView,
+  StyleSheet,
+  View,
+} from 'react-native';
+import SearchControl from '../../../shared/components/searchControl/SearchControl';
 import useGetKitchenProduct from '../hooks/useGetKitchenProduct';
-import FoodSelector from '../components/foodSelector/FoodSelector';
-import FoodDashboard from '../components/foodDashboard/FoodDashboard';
+import FoodSelector from '../../../shared/components/foodSelector/FoodSelector';
+import FoodDashboard from '../../../shared/components/foodDashboard/FoodDashboard';
 import useKitchenSelectedProducts from '../hooks/useKitchenSelectedProducts';
-import NutritionalValue from '../components/nutritionalValue/NutritionalValue';
+import NutritionalValue from '../../../shared/components/nutritionalValue/NutritionalValue';
+import {KitchenProduct} from '../../../shared/interfaces/kitchenProduct';
+import useSearch from '../../../shared/hooks/useSearch';
 
 const styles = StyleSheet.create({
   container: {
@@ -16,6 +23,9 @@ const styles = StyleSheet.create({
   scrollView: {
     flex: 1,
   },
+  padding: {
+    height: 20,
+  },
 });
 
 const KitchenContainer: FC = () => {
@@ -24,8 +34,8 @@ const KitchenContainer: FC = () => {
     searchText,
     searchTextChangeHandler,
     filteredProducts,
-  } = useKitchenSearch({
-    products: kitchenProducts,
+  } = useSearch<KitchenProduct>({
+    items: kitchenProducts,
   });
   const {
     addSelectedProduct,
@@ -63,7 +73,7 @@ const KitchenContainer: FC = () => {
   );
 
   return (
-    <View style={styles.container}>
+    <KeyboardAvoidingView behavior="padding" style={styles.container}>
       {nutritionalValue}
       <ScrollView
         style={styles.scrollView}
@@ -77,7 +87,8 @@ const KitchenContainer: FC = () => {
         searchText={searchText}
         onChangeText={searchTextChangeHandler}
       />
-    </View>
+      <View style={styles.padding} />
+    </KeyboardAvoidingView>
   );
 };
 

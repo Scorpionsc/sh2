@@ -11,10 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		4663BB8C261C9AD50078E204 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4663BB8B261C9AD50078E204 /* Ionicons.ttf */; };
-		52795055FD3AA00C24EB2CDA /* libPods-sugarHunter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BDDDD26D38489230F6EF92 /* libPods-sugarHunter.a */; };
+		2D95795BD631079268C6AE01 /* libPods-sugarHunter-sugarHunterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F79F3007D80F0FF00A34C217 /* libPods-sugarHunter-sugarHunterTests.a */; };
+		461620BB26242F1400F15406 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 461620BA26242F1400F15406 /* main.jsbundle */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E5E681D4A1238A349E037425 /* libPods-sugarHunter-sugarHunterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D61A616A651EE7C342AFE8FC /* libPods-sugarHunter-sugarHunterTests.a */; };
+		FE87579195B69836A5340442 /* libPods-sugarHunter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1839CBAF8FFCF07271F57D0 /* libPods-sugarHunter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,21 +31,22 @@
 		00E356EE1AD99517003FC87E /* sugarHunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sugarHunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* sugarHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sugarHunterTests.m; sourceTree = "<group>"; };
+		01B5755BEF5DF877EBC6CA7D /* Pods-sugarHunter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sugarHunter.release.xcconfig"; path = "Target Support Files/Pods-sugarHunter/Pods-sugarHunter.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* sugarHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sugarHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = sugarHunter/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = sugarHunter/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = sugarHunter/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = sugarHunter/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = sugarHunter/main.m; sourceTree = "<group>"; };
-		22A7FD89D55FDACCA237E5A6 /* Pods-sugarHunter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sugarHunter.release.xcconfig"; path = "Target Support Files/Pods-sugarHunter/Pods-sugarHunter.release.xcconfig"; sourceTree = "<group>"; };
-		4663BB8B261C9AD50078E204 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		5EF7FD91FA88790F302850D3 /* Pods-sugarHunter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sugarHunter.debug.xcconfig"; path = "Target Support Files/Pods-sugarHunter/Pods-sugarHunter.debug.xcconfig"; sourceTree = "<group>"; };
+		461620BA26242F1400F15406 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		4648634E261F2586002651CA /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = sugarHunter/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B7BDDDD26D38489230F6EF92 /* libPods-sugarHunter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sugarHunter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D61A616A651EE7C342AFE8FC /* libPods-sugarHunter-sugarHunterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sugarHunter-sugarHunterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E11D90B1E1C00EE3483051E6 /* Pods-sugarHunter-sugarHunterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sugarHunter-sugarHunterTests.debug.xcconfig"; path = "Target Support Files/Pods-sugarHunter-sugarHunterTests/Pods-sugarHunter-sugarHunterTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E23FF4A7286CC27E107FD922 /* Pods-sugarHunter-sugarHunterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sugarHunter-sugarHunterTests.release.xcconfig"; path = "Target Support Files/Pods-sugarHunter-sugarHunterTests/Pods-sugarHunter-sugarHunterTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FE5B5DD6DCFBFDAF18C1B89 /* Pods-sugarHunter-sugarHunterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sugarHunter-sugarHunterTests.debug.xcconfig"; path = "Target Support Files/Pods-sugarHunter-sugarHunterTests/Pods-sugarHunter-sugarHunterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1BF87B996CEA815CC22E136 /* Pods-sugarHunter-sugarHunterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sugarHunter-sugarHunterTests.release.xcconfig"; path = "Target Support Files/Pods-sugarHunter-sugarHunterTests/Pods-sugarHunter-sugarHunterTests.release.xcconfig"; sourceTree = "<group>"; };
+		BDA3C6D9749F60CD00D48F24 /* Pods-sugarHunter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sugarHunter.debug.xcconfig"; path = "Target Support Files/Pods-sugarHunter/Pods-sugarHunter.debug.xcconfig"; sourceTree = "<group>"; };
+		E1839CBAF8FFCF07271F57D0 /* libPods-sugarHunter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sugarHunter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F79F3007D80F0FF00A34C217 /* libPods-sugarHunter-sugarHunterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sugarHunter-sugarHunterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5E681D4A1238A349E037425 /* libPods-sugarHunter-sugarHunterTests.a in Frameworks */,
+				2D95795BD631079268C6AE01 /* libPods-sugarHunter-sugarHunterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52795055FD3AA00C24EB2CDA /* libPods-sugarHunter.a in Frameworks */,
+				FE87579195B69836A5340442 /* libPods-sugarHunter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +89,7 @@
 		13B07FAE1A68108700A75B9A /* sugarHunter */ = {
 			isa = PBXGroup;
 			children = (
+				4648634D261F2556002651CA /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -102,18 +104,18 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				B7BDDDD26D38489230F6EF92 /* libPods-sugarHunter.a */,
-				D61A616A651EE7C342AFE8FC /* libPods-sugarHunter-sugarHunterTests.a */,
+				E1839CBAF8FFCF07271F57D0 /* libPods-sugarHunter.a */,
+				F79F3007D80F0FF00A34C217 /* libPods-sugarHunter-sugarHunterTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4663BB86261C99E70078E204 /* Fonts */ = {
+		4648634D261F2556002651CA /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				4663BB8B261C9AD50078E204 /* Ionicons.ttf */,
+				4648634E261F2586002651CA /* Ionicons.ttf */,
 			);
-			path = Fonts;
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -126,7 +128,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				4663BB86261C99E70078E204 /* Fonts */,
+				461620BA26242F1400F15406 /* main.jsbundle */,
 				13B07FAE1A68108700A75B9A /* sugarHunter */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* sugarHunterTests */,
@@ -151,10 +153,10 @@
 		DDB758625C2FD9B97912C661 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5EF7FD91FA88790F302850D3 /* Pods-sugarHunter.debug.xcconfig */,
-				22A7FD89D55FDACCA237E5A6 /* Pods-sugarHunter.release.xcconfig */,
-				E11D90B1E1C00EE3483051E6 /* Pods-sugarHunter-sugarHunterTests.debug.xcconfig */,
-				E23FF4A7286CC27E107FD922 /* Pods-sugarHunter-sugarHunterTests.release.xcconfig */,
+				BDA3C6D9749F60CD00D48F24 /* Pods-sugarHunter.debug.xcconfig */,
+				01B5755BEF5DF877EBC6CA7D /* Pods-sugarHunter.release.xcconfig */,
+				9FE5B5DD6DCFBFDAF18C1B89 /* Pods-sugarHunter-sugarHunterTests.debug.xcconfig */,
+				A1BF87B996CEA815CC22E136 /* Pods-sugarHunter-sugarHunterTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -166,12 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "sugarHunterTests" */;
 			buildPhases = (
-				FC6456B37B6D7526E957FB2A /* [CP] Check Pods Manifest.lock */,
+				786262646B33B402FED4357A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				1D4177F6AD8CE3BE22019970 /* [CP] Embed Pods Frameworks */,
-				85F8548FD20AF9CD5453E4AF /* [CP] Copy Pods Resources */,
+				E8F79516F5F407D8E92C0A2D /* [CP] Embed Pods Frameworks */,
+				51B8BE35DCDFDAC904E73192 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,14 +189,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "sugarHunter" */;
 			buildPhases = (
-				FCF2B24E30834FD51A89A1B4 /* [CP] Check Pods Manifest.lock */,
+				B5B7EF97D12F98D522937099 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				B91580825F41354E99F5D6BD /* [CP] Embed Pods Frameworks */,
-				2520C0117B574D05997B35AD /* [CP] Copy Pods Resources */,
+				C3809965A6D56C28670A7E16 /* [CP] Embed Pods Frameworks */,
+				EFB6788EE342AB5DCEE214B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,9 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461620BB26242F1400F15406 /* main.jsbundle in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				4663BB8C261C9AD50078E204 /* Ionicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,41 +278,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		1D4177F6AD8CE3BE22019970 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter-sugarHunterTests/Pods-sugarHunter-sugarHunterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter-sugarHunterTests/Pods-sugarHunter-sugarHunterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sugarHunter-sugarHunterTests/Pods-sugarHunter-sugarHunterTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2520C0117B574D05997B35AD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		85F8548FD20AF9CD5453E4AF /* [CP] Copy Pods Resources */ = {
+		51B8BE35DCDFDAC904E73192 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,24 +295,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sugarHunter-sugarHunterTests/Pods-sugarHunter-sugarHunterTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B91580825F41354E99F5D6BD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC6456B37B6D7526E957FB2A /* [CP] Check Pods Manifest.lock */ = {
+		786262646B33B402FED4357A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,7 +317,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FCF2B24E30834FD51A89A1B4 /* [CP] Check Pods Manifest.lock */ = {
+		B5B7EF97D12F98D522937099 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,6 +337,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3809965A6D56C28670A7E16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F79516F5F407D8E92C0A2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter-sugarHunterTests/Pods-sugarHunter-sugarHunterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter-sugarHunterTests/Pods-sugarHunter-sugarHunterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sugarHunter-sugarHunterTests/Pods-sugarHunter-sugarHunterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB6788EE342AB5DCEE214B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sugarHunter/Pods-sugarHunter-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -440,9 +442,10 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E11D90B1E1C00EE3483051E6 /* Pods-sugarHunter-sugarHunterTests.debug.xcconfig */;
+			baseConfigurationReference = 9FE5B5DD6DCFBFDAF18C1B89 /* Pods-sugarHunter-sugarHunterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J44254S8LN;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -467,10 +470,11 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E23FF4A7286CC27E107FD922 /* Pods-sugarHunter-sugarHunterTests.release.xcconfig */;
+			baseConfigurationReference = A1BF87B996CEA815CC22E136 /* Pods-sugarHunter-sugarHunterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = J44254S8LN;
 				INFOPLIST_FILE = sugarHunterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -491,7 +495,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EF7FD91FA88790F302850D3 /* Pods-sugarHunter.debug.xcconfig */;
+			baseConfigurationReference = BDA3C6D9749F60CD00D48F24 /* Pods-sugarHunter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -518,7 +522,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22A7FD89D55FDACCA237E5A6 /* Pods-sugarHunter.release.xcconfig */;
+			baseConfigurationReference = 01B5755BEF5DF877EBC6CA7D /* Pods-sugarHunter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

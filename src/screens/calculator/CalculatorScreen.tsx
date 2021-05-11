@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+﻿import React, {FC} from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 import SugarCollector from './containers/SugarCollector';
 import KitchenContainer from './containers/KitchenContainer';

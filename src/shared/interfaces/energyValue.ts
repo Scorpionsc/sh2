@@ -1,5 +1,5 @@
 export interface EnergyValue {
-  fats: number;
-  proteins: number;
-  carbohydrates: number;
+  fats: string;
+  proteins: string;
+  carbohydrates: string;
 }

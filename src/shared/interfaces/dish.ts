@@ -1,9 +1,10 @@
 import {Ingredient} from './ingredient';
+import {EnergyValue} from './energyValue';
 
-export interface Dish {
+export interface Dish extends EnergyValue {
   _id: string;
   description: string;
-  gi: number;
+  gi: string;
   ingredients: Record<string, Ingredient>;
   name: string;
   updatedAt: number;

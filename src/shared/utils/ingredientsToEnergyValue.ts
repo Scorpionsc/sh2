@@ -25,9 +25,12 @@ const ingredientsToEnergyValue = (
   );
 
   return {
-    fats: totalProduct.fats / (totalProduct.weight / 100),
-    carbohydrates: totalProduct.carbohydrates / (totalProduct.weight / 100),
-    proteins: totalProduct.proteins / (totalProduct.weight / 100),
+    fats: (totalProduct.fats / (totalProduct.weight / 100)).toString(),
+    carbohydrates: (
+      totalProduct.carbohydrates /
+      (totalProduct.weight / 100)
+    ).toString(),
+    proteins: (totalProduct.proteins / (totalProduct.weight / 100)).toString(),
   };
 };
 
